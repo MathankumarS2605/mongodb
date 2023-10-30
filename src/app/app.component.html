@@ -1,0 +1,11 @@
+
+
+<form #userForm="ngForm" (ngSubmit)="onSubmit(userForm)">
+  <input type="text" name="userid" ngModel>
+  <input type="text" name="password" ngModel>
+  <input type="text" name="email" ngModel>
+  <button type="submit">Submit</button>
+
+
+</form>
+<router-outlet></router-outlet>
